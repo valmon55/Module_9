@@ -69,29 +69,10 @@
             }
             Console.WriteLine("--------");
 
-            //SortException exception = new SortException("Код сортировки должен быть цифрой!");
-
             Sort_by_key sort_by_key = new Sort_by_key();
             sort_by_key.eventSortFamilies += SortFamilies;
 
             sort_by_key.Sort();
-
-            //SortFamiliesAsc(ref families);
-
-            //foreach(string family in families)
-            //{
-            //    Console.WriteLine(family);
-            //}
-            //Console.WriteLine("--------");
-
-            //SortFamiliesDesc(ref families);
-
-            //foreach (string family in families)
-            //{
-            //    Console.WriteLine(family);
-            //}
-
-            //Console.ReadKey();
         }
         static void SortFamilies(ConsoleKey k)
         {
